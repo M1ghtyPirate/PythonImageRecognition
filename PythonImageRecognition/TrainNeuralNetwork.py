@@ -17,13 +17,9 @@ for i in range(16):
     imgIndex = random.randint(0, len(training_images))
     plt.imshow(training_images[imgIndex], cmap=plt.cm.get_cmap('binary'))
     plt.xlabel(class_names[training_labels[imgIndex][0]])
-               
+             
+plt.gcf().canvas.manager.set_window_title('Sample training images')
 plt.show()
-
-# training_images = training_images[:20000]
-# training_labels = training_labels[:20000]
-# testing_images = testing_images[:4000]
-# testing_labels = testing_labels[:4000]
 
 model = models.Sequential()
 model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)))
@@ -43,6 +39,6 @@ loss, accuracy = model.evaluate(testing_images, testing_labels)
 print(f'Loss: {loss}')
 print(f'Accuracy: {accuracy}')
 
-model.save(f'image_classifier_{datetime.datetime.now().strftime("%Y%m%d-%H%M%S")}.keras')
-
-#model = model.load_model('image_classifier.model')
+fileName = f'image_classifier_{datetime.datetime.now().strftime("%Y%m%d-%H%M%S")}.keras'
+model.save(fileName)
+print(f'Model trained: {fileName}')

@@ -1,0 +1,4 @@
+car.jpg: Car - 99.95 %
+cat.jpg: Cat - 94.15 %
+cat2.jpg: Cat - 54.26 %
+huhcat.jpg: Cat - 47.81 %

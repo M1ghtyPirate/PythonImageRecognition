@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a46fcb2d-e520-41c6-97fd-e483ddcc76df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonImageRecognition.py</StartupFile>
+    <StartupFile>PythonImageIdentification.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonImageRecognition.py" />
-    <Compile Include="RecognizeImage.py" />
+    <Compile Include="PythonImageIdentification.py" />
+    <Compile Include="IdentifyImages.py" />
     <Compile Include="TrainNeuralNetwork.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

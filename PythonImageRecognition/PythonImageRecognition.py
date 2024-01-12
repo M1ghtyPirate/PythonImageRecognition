@@ -1,5 +1,0 @@
-#exec(open("TrainNeuralNetwork.py").read())
-#input()
-exec(open("RecognizeImage.py").read())
-input()
-exit()
