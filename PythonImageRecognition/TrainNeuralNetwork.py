@@ -1,6 +1,4 @@
 import datetime
-import cv2 as cs
-import numpy as np
 import matplotlib.pyplot as plt
 import random
 from keras import layers, models, datasets

@@ -1,11 +1,9 @@
 import datetime
 import os
 import re
-import cv2 as cs
 import numpy as np
 import matplotlib.pyplot as plt
-import random
-from keras import Sequential, layers, models, datasets
+from keras import layers, models, datasets
 from PIL import Image
 
 def getFiles(pattern):
