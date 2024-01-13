@@ -50,8 +50,7 @@ for i in range(imageFiles.__len__() * 2):
     plt.xlabel(imgClass)
     if i == 1:
         plt.gcf().canvas.manager.set_window_title('Identification result')
-    elif i == 15: 
-        plt.savefig()
+    elif i == 15:
         plt.figure()
 
 print(f'Identification result:\n{result}')
