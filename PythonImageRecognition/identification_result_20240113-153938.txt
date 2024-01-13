@@ -1,0 +1,12 @@
+bird01.jpg: Bird - 67.5 %
+car01.jpg: Car - 100.0 %
+cat01.jpg: Cat - 74.11 %
+cat02.jpg: Dog - 40.16 %
+cat03.jpg: Cat - 97.75 %
+deer01.jpg: Deer - 59.16 %
+dog01.jpeg: Dog - 99.99 %
+frog01.jpg: Frog - 100.0 %
+horse01.jpg: Horse - 100.0 %
+plane01.jpg: Plane - 99.96 %
+ship01.jpg: Ship - 99.85 %
+truck01.jpg: Truck - 89.29 %
